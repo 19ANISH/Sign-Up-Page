@@ -12,9 +12,8 @@
 	<h1> Sign Up </h1>
 	<form id = "form">
 		<label for="email">Enter your email address:</label>
-		<input type="email" class = "input-box" placeholder="default@gmail.com" pattern= ".+@gmail\.com" title = "Invaild Email"> <br>
-		<input type="password" class = "input-box" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*_-]).{6,}" title="Must include at least one number,one uppercase and lowercase letter, one special character and atleast 6 or more characters">
-		<!--<button type="button"  class="signup" type="submit">Sign Up</button>-->
+		<input type="email" class = "input-box" placeholder="default@gmail.com" pattern= ".+@gmail\.com" title = "Invaild Email" required = "required"> <br>
+		<input type="password" class = "input-box" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*_-]).{6,}" title="Must include at least one number,one uppercase and lowercase letter, one special character and atleast 6 or more characters" required = "required">
 		<input class="signup" type="submit" name="Sign Up" >
 		<hr>
 		<p style="font-size: 22px;" class="or">OR</p>
